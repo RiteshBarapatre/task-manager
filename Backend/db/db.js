@@ -1,7 +1,9 @@
 const mongoose = require("mongoose")
+const dotenv = require("dotenv")
+dotenv.config({})
 
 const db = async ()=>{
-    await mongoose.connect("mongodb+srv://riteshbarapatre543:38Jc5lbDtHdrCDCP@cluster0.5lohcow.mongodb.net/task-manager?retryWrites=true&w=majority")
+    await mongoose.connect(process.env.MONGO_URI)
     console.log(`Connection Successful...`)
 }
 
