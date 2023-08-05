@@ -1,0 +1,19 @@
+.card{
+    border: 1px solid white;
+    width: 300px;
+    padding: 10px;
+}
+.card__title{
+    color: darkorange;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.card__date{
+    margin: 20px 0;
+    background-color: coral;
+    width: fit-content;
+    padding: 2px;
+    border-radius: 10px;
+}

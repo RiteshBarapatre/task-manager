@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 10px;
+    height: 70vh;
+    color: white;
+}
+.text > span{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    margin: 0 10px;
+}
+.login__loginBtn{
+    margin-top: 20px;
+}

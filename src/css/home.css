@@ -1,0 +1,7 @@
+.home{
+    padding: 10px;
+}
+.pending__tasks{
+    display: flex;
+    width: 100%;
+}

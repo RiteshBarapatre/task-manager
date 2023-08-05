@@ -1,0 +1,9 @@
+.task_info{
+    font-size: 18px;
+    margin: 15px 0;
+}
+.task_info > span{
+    font-size: 22px;
+    font-weight: bolder;
+    border-bottom: 2px solid orangered;
+}
